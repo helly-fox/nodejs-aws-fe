@@ -42,7 +42,7 @@ export default function Products() {
       })
     // setProducts(productList);
   }, [])
-console.log(products);
+
   return (
     <Grid container spacing={4}>
       {products.map((product: Product) => (
